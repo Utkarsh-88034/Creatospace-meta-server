@@ -9,7 +9,8 @@ const server = http.createServer(app);
 const users = [];
 const io = new Server(server, {
   cors: {
-    origin: "62c997e2d7ab997c052390d2--musical-alfajores-8b8fde.netlify.app",
+    origin:
+      "https://62c997e2d7ab997c052390d2--musical-alfajores-8b8fde.netlify.app/",
     methods: ["GET", "POST"],
   },
 });
